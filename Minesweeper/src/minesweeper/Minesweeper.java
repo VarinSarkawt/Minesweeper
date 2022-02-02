@@ -63,6 +63,7 @@ public class Minesweeper extends JFrame implements ActionListener{
                 for(int j = 0; j < size; j++){
                     button[i][j].setEnabled(true);
                     button[i][j].setText("");
+                    button[i][j].setIcon(new ImageIcon(""));
                 }
             }
             Mine(30);  //triggers a new game.
